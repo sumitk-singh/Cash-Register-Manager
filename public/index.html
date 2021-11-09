@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cash Register Manager</title>
+    <link rel="stylesheet" href="/src/style.css">
+</head>
+
+<body>
+
+    <h1>Cash Register Manager
+    </h1>
+    <h3>Enter the bill amount and cash given by the customer and know minimum number of notes to return</h3>
+    <div class="input-and-btn-group">
+        <label for="bill-amount">Bill Amount:</label><br>
+        <input type="number" id="bill-amount-input"><br>
+        <label for="cash-given">Cash Given:</label><br>
+        <input type="number" id="cash-given-input"><br>
+        <button id="btn" onclick="clickHandeler()">Check</button>
+    </div>
+
+    <table>
+        <tbody>
+            <tr>
+                <th>No of Notes</th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>Notes</th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h3 id="demo"></h3>
+
+    <!-- ---
+    step 1  basic layout
+    step 2  DOM manupulation
+    step 3  apply logic
+    step 4  test the app 
+    step 5  push on git
+    --- -->
+
+    <script src="/src/app.js"></script>
+
+</body>
+
+</html>
