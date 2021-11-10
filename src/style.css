@@ -1,5 +1,5 @@
 :root {
-    --primary-color: blue;
+    --primary-color: rgb(5, 25, 204);
 }
 
 body {
@@ -34,11 +34,16 @@ h1 {
     border-radius: 15px;
 }
 
+table {
+    border-collapse: collapse;
+}
+
 td,
 th {
     margin-top: 15px;
     border-color: var(--primary-color);
     border-style: solid;
     width: 200px;
-    height: 30px;
+    height: 45px;
+    border-collapse: collapse;
 }
